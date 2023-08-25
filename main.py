@@ -67,6 +67,7 @@ my_params = {
 
 
 def every_minute():
+    """This function runs every minute and checks to see if it's nightime and if the ISS is overhead"""
     tracking = True
     while tracking:
         time.sleep(60)
